@@ -1,5 +1,5 @@
-var prompts = require('./dialog');
-var prompts = require('./prompt');
+var dialog = require('./dialog');
+var prompts = require('./prompts');
 
 module.exports = {
     start: function(){
@@ -15,5 +15,6 @@ module.exports = {
         var bot = new builder.UniversalBot(connector);
         server.post('/api/messages', connector.listen());
         bot.dialog('/', dialog);
+        
     }
 }
