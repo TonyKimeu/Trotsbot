@@ -1,6 +1,31 @@
 {
+  "name": "Trotsbot",
+  "version": "1.0.0",
+  "description": "Trots bots",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyKimeu/Trotsbot.git"
+  },
+  "keywords": [
+    "Bots"
+  ],
+  "author": "Antony Kimeu",
+  "license": "Trots",
+  "bugs": {
+    "url": "https://github.com/TonyKimeu/Trotsbot/issues"
+  },
+  "homepage": "https://github.com/TonyKimeu/Trotsbot#readme",
   "dependencies": {
     "botbuilder": "^3.6.0",
+    "dotenv": "^4.0.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0",
     "restify": "^4.3.0"
   }
 }
+
